@@ -1,0 +1,274 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rajdhani', sans-serif;
+  background: #000;
+  overflow-x: hidden;
+}
+
+.orbitron {
+  font-family: 'Orbitron', monospace;
+}
+
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.neon-glow {
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+}
+
+.gradient-text {
+  background: linear-gradient(45deg, #00f5ff, #ff00ff, #00f5ff);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient-shift 3s ease-in-out infinite;
+}
+
+.holographic-text {
+  background: linear-gradient(45deg, #00f5ff, #ff00ff, #ffffff, #00f5ff);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: holographic-shine 4s ease-in-out infinite;
+}
+
+@keyframes gradient-shift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+@keyframes holographic-shine {
+  0%, 100% { background-position: 0% 50%; }
+  25% { background-position: 100% 50%; }
+  50% { background-position: 200% 50%; }
+  75% { background-position: 300% 50%; }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 20px rgba(0, 255, 255, 0.3); }
+  50% { box-shadow: 0 0 40px rgba(0, 255, 255, 0.6), 0 0 60px rgba(255, 0, 255, 0.3); }
+}
+
+.pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-20px) rotate(180deg); }
+}
+
+.float-animation {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes rotate-3d {
+  0% { transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
+  33% { transform: rotateX(0deg) rotateY(120deg) rotateZ(0deg); }
+  66% { transform: rotateX(0deg) rotateY(240deg) rotateZ(0deg); }
+  100% { transform: rotateX(0deg) rotateY(360deg) rotateZ(0deg); }
+}
+
+.rotate-3d {
+  animation: rotate-3d 8s linear infinite;
+}
+
+.neon-border {
+  position: relative;
+}
+
+.neon-border::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, #00f5ff, #ff00ff, #00f5ff);
+  border-radius: inherit;
+  padding: 2px;
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  animation: gradient-shift 3s ease-in-out infinite;
+  opacity: 0.6;
+}
+
+.scanner-line {
+  position: relative;
+  overflow: hidden;
+}
+
+.scanner-line::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(0, 255, 255, 0.4), transparent);
+  animation: scanner-sweep 3s linear infinite;
+}
+
+@keyframes scanner-sweep {
+  0% { left: -100%; }
+  100% { left: 100%; }
+}
+
+@keyframes grid-move {
+  0% { transform: translate(0, 0); }
+  100% { transform: translate(50px, 50px); }
+}
+
+/* Enhanced Swiper Styles */
+.swiper-pagination-bullet {
+  background: rgba(0, 245, 255, 0.5) !important;
+  width: 12px !important;
+  height: 12px !important;
+  border: 2px solid rgba(0, 245, 255, 0.3) !important;
+  opacity: 1 !important;
+  transition: all 0.3s ease !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: rgba(255, 0, 255, 0.8) !important;
+  border-color: rgba(255, 0, 255, 0.6) !important;
+  transform: scale(1.3) !important;
+  box-shadow: 0 0 20px rgba(255, 0, 255, 0.5) !important;
+}
+
+/* Holographic Grid Animation */
+@keyframes holographic-grid {
+  0% { 
+    background-position: 0% 0%;
+    opacity: 0.1;
+  }
+  50% { 
+    background-position: 100% 100%;
+    opacity: 0.3;
+  }
+  100% { 
+    background-position: 0% 0%;
+    opacity: 0.1;
+  }
+}
+
+.holographic-grid {
+  background-image: 
+    linear-gradient(rgba(0, 245, 255, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 245, 255, 0.1) 1px, transparent 1px),
+    linear-gradient(rgba(255, 0, 255, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 0, 255, 0.1) 1px, transparent 1px);
+  background-size: 100px 100px, 100px 100px, 50px 50px, 50px 50px;
+  animation: holographic-grid 10s ease-in-out infinite;
+}
+
+/* Enhanced Particle Effects */
+@keyframes particle-float {
+  0%, 100% { 
+    transform: translateY(0px) translateX(0px) rotate(0deg);
+    opacity: 0.3;
+  }
+  33% { 
+    transform: translateY(-30px) translateX(10px) rotate(120deg);
+    opacity: 0.7;
+  }
+  66% { 
+    transform: translateY(-10px) translateX(-15px) rotate(240deg);
+    opacity: 0.5;
+  }
+}
+
+.particle-float {
+  animation: particle-float 8s ease-in-out infinite;
+}
+
+/* Advanced Glassmorphism Effects */
+.advanced-glass {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(25px) saturate(200%);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* Cinematic Transitions */
+.cinematic-enter {
+  opacity: 0;
+  transform: scale(0.9) translateY(50px);
+  transition: all 1s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.cinematic-enter-active {
+  opacity: 1;
+  transform: scale(1) translateY(0px);
+}
+
+/* Light Sweep Animation */
+@keyframes light-sweep {
+  0% { transform: translateX(-100%) skewX(-15deg); }
+  100% { transform: translateX(300%) skewX(-15deg); }
+}
+
+.light-sweep {
+  position: relative;
+  overflow: hidden;
+}
+
+.light-sweep::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  animation: light-sweep 3s ease-in-out infinite;
+  z-index: 1;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #00f5ff, #ff00ff);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #ff00ff, #00f5ff);
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+  .holographic-text {
+    font-size: clamp(2rem, 8vw, 4rem);
+  }
+  
+  .gradient-text {
+    font-size: clamp(1.5rem, 6vw, 3rem);
+  }
+}
+/* globals.css */
