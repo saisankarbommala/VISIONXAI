@@ -1,9 +1,5 @@
 import React from "react";
 import { Calendar, MapPin, Mail, Phone, MapPinned } from "lucide-react";
-<<<<<<< HEAD
-
-=======
->>>>>>> cba946cbeeb67e29509a7af6d4703b942a60fa49
 
 // The HomePage component containing the website content
 const HomePage = () => {
