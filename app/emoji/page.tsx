@@ -1,9 +1,5 @@
-import React from 'react';
-import Calendar from 'lucide-react/dist/esm/icons/calendar';
-import MapPin from 'lucide-react/dist/esm/icons/map-pin';
-import Mail from 'lucide-react/dist/esm/icons/mail';
-import Phone from 'lucide-react/dist/esm/icons/phone';
-import MapPinned from 'lucide-react/dist/esm/icons/map-pinned';
+import React from "react";
+import { Calendar, MapPin, Mail, Phone, MapPinned } from "lucide-react";
 
 // The HomePage component containing the website content
 const HomePage = () => {
