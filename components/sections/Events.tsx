@@ -3,7 +3,7 @@ import { useState, useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import Link from 'next/link';
 import { Calendar, Clock, Code, Brain, Database, Cpu, Network, Zap, CheckCircle2, AlertCircle } from 'lucide-react';
-import BugHunt from './BugHunt';
+
 
 // ✅ Events Data
 const events = [
