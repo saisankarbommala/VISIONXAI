@@ -10,10 +10,22 @@ import {
   Cpu,
   AlertCircle,
   CheckCircle2,
+  LucideIcon
 } from "lucide-react";
 
-// ✅ Events Data
-const events = [
+// ✅ Type Definition for an Event
+interface Event {
+  id: number;
+  title: string;
+  description: string;
+  date: string;
+  time: string;
+  icon: LucideIcon;
+  link: string;
+}
+
+// ✅ Events Data (no change needed here, it's the data source)
+const events: Event[] = [
   {
     id: 1,
     title: "Quiz",
@@ -22,7 +34,7 @@ const events = [
     date: "Sept 1, 2025",
     time: "9:15 AM",
     icon: Brain,
-    link: "quiz",
+    link: "/quiz",
   },
   {
     id: 2,
@@ -67,7 +79,7 @@ const events = [
 const JoinButton = ({ href }: { href: string }) => (
   <Link href={href} passHref legacyBehavior>
     <motion.a
-      target={href.startsWith("http") ? "_blank" : undefined} // open external in new tab
+      target={href.startsWith("http") ? "_blank" : undefined}
       rel={href.startsWith("http") ? "noopener noreferrer" : undefined}
       whileHover={{ scale: 1.05 }}
       whileTap={{ scale: 0.95 }}
@@ -82,7 +94,8 @@ const JoinButton = ({ href }: { href: string }) => (
 );
 
 
-const EventCard = ({ event }) => {
+// ✅ Corrected EventCard Component with TypeScript prop type
+const EventCard = ({ event }: { event: Event }) => {
   const Icon = event.icon;
 
   return (
