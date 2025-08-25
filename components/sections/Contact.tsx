@@ -38,7 +38,7 @@ const contactCards = [
   {
     id: 3,
     title: 'Visit Us',
-    value: 'Aditya Degree College Gajuwaka',
+    value: 'Aditya Degree College (Coed) Gajuwaka',
     subtitle: 'Andhra Pradesh, Visakhapatnam, India',
     icon: MapPin,
     color: 'green',
