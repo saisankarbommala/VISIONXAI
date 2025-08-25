@@ -60,7 +60,7 @@ const chiefGuest = {
   name: 'CHEIF GUEST',
   title: 'Founder & CEO',
   company: 'VisionX Technologies',
-  image: '',
+  image: '/GUEST.png',
   description: "A visionary leader in Artificial Intelligence, known for pioneering innovations at VisionX Technologies. His expertise and journey inspire the next generation of technologists."
 };
 
