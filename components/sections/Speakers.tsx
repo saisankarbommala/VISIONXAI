@@ -1,6 +1,7 @@
 'use client';
 import { motion, useInView, AnimatePresence } from 'framer-motion';
 import { useRef, useState, useEffect } from 'react';
+import React from 'react';
 
 const speakers = [
   {
@@ -65,9 +66,9 @@ const chiefGuest = {
 // Interactive Magnifier
 const InteractiveMagnifier = () => {
   const [position, setPosition] = useState({ x: 0, y: 0, visible: false });
-  const containerRef = useRef(null);
+  const containerRef = useRef<HTMLDivElement | null>(null);
 
-  const handleMouseMove = (e) => {
+  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
     if (containerRef.current) {
       const rect = containerRef.current.getBoundingClientRect();
       const x = e.clientX - rect.left;
@@ -112,7 +113,7 @@ const InteractiveMagnifier = () => {
 };
 
 // Main Speaker Card
-const MainSpeakerCard = ({ speaker }) => {
+const MainSpeakerCard = ({ speaker }: { speaker: any }) => {
   return (
     <motion.div
       key={speaker.id}
@@ -183,7 +184,7 @@ const MainSpeakerCard = ({ speaker }) => {
 };
 
 // Chief Guest Card
-const ChiefGuestCard = ({ guest }) => {
+const ChiefGuestCard = ({ guest }: { guest: any }) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: '-200px' });
 
@@ -236,7 +237,7 @@ const ChiefGuestCard = ({ guest }) => {
 };
 
 // Speaker List Item
-const SpeakerListItem = ({ speaker, onClick, isActive, delay }) => {
+const SpeakerListItem = ({ speaker, onClick, isActive, delay }: { speaker: any; onClick: (id: number) => void; isActive: boolean; delay: number }) => {
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
