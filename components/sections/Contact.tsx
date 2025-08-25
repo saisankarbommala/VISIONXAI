@@ -17,7 +17,7 @@ const contactCards = [
     borderColor: 'border-cyan-400/30',
     glowColor: 'shadow-cyan-400/30',
     type: 'email', // Add a type for handling different links
-    href: 'mailto:contact@visionIx.ai' // Add the mailto link
+    href: 'mailto:visionx.ai2k25@gmail.com' // Add the mailto link
   },
   {
     id: 2,
