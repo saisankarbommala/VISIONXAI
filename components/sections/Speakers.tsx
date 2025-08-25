@@ -28,18 +28,19 @@ const speakers = [
     title: 'Dean Of AI',
     image: '/dean.JPG'
   },
+   {
+    id: 7,
+    name: 'M SATYA PRAKASH',
+    title: 'Principal-(ADCGWK)',
+    image: '/SP_SIR.JPG'
+  },
   {
-    id:7 ,
+    id:8 ,
     name: 'P PRADEEP KUMAR',
     title: 'Principal-(AWDCGWK)',
     image: '/pradeep.JPG'
   },
-  {
-    id: 8,
-    name: 'M SATYA PRAKASH',
-    title: 'Principal-(ADCGWK)',
-    image: '/SPSIR.JPG'
-  },
+ 
   {
     id: 9,
     name: 'R V R PATRUDU',
