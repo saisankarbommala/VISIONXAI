@@ -268,7 +268,7 @@ const HomePage = () => {
                   <MapPinned className="w-8 h-8 text-yellow-400" />
                 </div>
                 <h3 className="font-bold text-gray-300">Visit Us</h3>
-                <p className="text-yellow-300">Aditya Degree College, Gajuwaka</p>
+                <p className="text-yellow-300">Aditya Degree College (Coed) Gajuwaka</p>
                 <p className="text-yellow-300">Visakhapatnam, Andhra Pradesh, India</p>
                 <p className="text-gray-500 text-xs mt-2">Event Location</p>
               </div>
