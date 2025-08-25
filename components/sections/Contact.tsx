@@ -59,7 +59,7 @@ const contactCards = [
     borderColor: 'border-orange-400/30',
     glowColor: 'shadow-orange-400/30',
     type: 'website', // Add a type
-    href: 'https://www.visionIx.ai' // Add the website URL
+    href: 'https://visionxai.netlify.app/' // Add the website URL
   },
 ];
 
