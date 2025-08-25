@@ -196,7 +196,7 @@ const Preloader = ({ onComplete }: { onComplete: () => void }) => {
               animate={{ opacity: [1, 0.7, 1] }}
               transition={{ duration: 1.5, repeat: Infinity }}
             >
-              ADITYA DEGREE COLLEGE (CO-ED) GAJUWAKA
+              DEPARTMENT OF ARTIFICIAL INTELLIGENCE
             </motion.h1>
 
             {/* Progress */}
