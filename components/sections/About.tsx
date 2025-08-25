@@ -116,21 +116,15 @@ const About = () => {
                 <p className="leading-relaxed">
                   Join us for the most anticipated <span className="text-cyan-400 font-semibold">Artificial Intelligence</span> festival 
                   of 2025, where cutting-edge technology meets innovative minds.
-                </p>
-                
-                <p className="leading-relaxed">
-                  Experience groundbreaking <span className="text-purple-400 font-semibold">technical competitions</span>, 
-                  inspiring talks from industry leaders, and networking opportunities that will shape the future.
-                </p>
-                
+                </p>    
                 <div className="grid grid-cols-2 gap-4 pt-4">
                   <div className="text-center p-4 bg-cyan-400/10 rounded-xl border border-cyan-400/20">
                     <div className="text-2xl font-bold text-cyan-400">50+</div>
-                    <div className="text-sm text-gray-400">Speakers</div>
+                    <div className="text-sm text-gray-400">Projects</div>
                   </div>
                   <div className="text-center p-4 bg-purple-400/10 rounded-xl border border-purple-400/20">
-                    <div className="text-2xl font-bold text-purple-400">5+</div>
-                    <div className="text-sm text-gray-400">Events</div>
+                    <div className="text-2xl font-bold text-purple-400">10+</div>
+                    <div className="text-sm text-gray-400">Competitions</div>
                   </div>
                 </div>
               </div>
@@ -147,7 +141,7 @@ const About = () => {
                 transition={{ duration: 3, repeat: Infinity }}
               >
                 <p className="text-center text-cyan-300 font-semibold tracking-wider">
-                  <span className="gradient-text">WHERE INNOVATION MEETS INTELLIGENCE</span>
+                  <span className="gradient-text">WHERE VISION BECOMES INTELLIGENCE</span>
                 </p>
               </motion.div>
             </div>
