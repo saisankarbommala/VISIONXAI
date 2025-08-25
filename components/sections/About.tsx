@@ -92,7 +92,7 @@ const About = () => {
               {/* This is the static image. We've removed its motion and added a subtle border for better visibility. */}
               {/* IMPORTANT: Use a high-quality, professional logo file in your public directory. */}
               <img
-                src="/visionx_logo.jpg"
+                src="/POSTER_VISION_X.png"
                 alt="VISIONX AI Logo"
                 className="w-full h-full]"
               />
