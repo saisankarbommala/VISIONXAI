@@ -33,19 +33,18 @@ const speakers = [
     name: 'M SATYA PRAKASH',
     title: 'Principal-(ADCGWK)',
     image: '/SP_SIR.JPG'
-  },
+  },  
   {
-    id:8 ,
-    name: 'P PRADEEP KUMAR',
-    title: 'Principal-(AWDCGWK)',
-    image: '/pradeep.JPG'
-  },
- 
-  {
-    id: 9,
+    id: 8,
     name: 'R V R PATRUDU',
     title: 'Vice Principal',
     image: '/patru.jpg',
+  },
+  {
+    id:9 ,
+    name: 'P PRADEEP KUMAR',
+    title: 'Principal-(AWDCGWK)',
+    image: '/pradeep.JPG'
   },
   {
     id: 10,
