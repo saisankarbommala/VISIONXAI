@@ -19,7 +19,7 @@ interface EventType {
 const events: EventType[] = [
   {
     id: 1,
-    title: 'Quiz',
+    title: 'NEURO QUEST',
     description: 'A knowledge-driven contest that challenges participants with questions on AI, CS, DS,and GK.',
     participants: 'Sept 1, 2025',
     icon: Brain,
@@ -28,7 +28,7 @@ const events: EventType[] = [
   },
   {
     id: 2,
-    title: 'Word - Treasure Hunt',
+    title: 'WORD HUNT',
     description: 'Hunt – Solve clues, uncover hidden words, and race to find the ultimate treasure of knowledge.',
     participants: 'Sept 2, 2025',
     icon: AlertCircle,
@@ -37,7 +37,7 @@ const events: EventType[] = [
   },
   {
     id: 3,
-    title: 'Emoji- Prompt',
+    title: 'IMAGE VERSE',
     description: 'Combine images to create prompts and generate a single AI-powered output.',
     participants: 'Sept 1, 2025',
     icon: CheckCircle2,
@@ -46,7 +46,7 @@ const events: EventType[] = [
   },
   {
     id: 4,
-    title: 'Bug Hunt',
+    title: 'DEBUG-X',
     description: 'A rapid challenge to spot and fix code errors under time pressure.',
     participants: 'Sept 2, 2025',
     icon: Network,
@@ -55,7 +55,7 @@ const events: EventType[] = [
   },
   {
     id: 5,
-    title: 'Web Task Builder',
+    title: 'WEB CRAFT',
     description: 'Build innovative web apps within a time limit.',
     participants: 'Sept 1, 2025',
     icon: Cpu,
