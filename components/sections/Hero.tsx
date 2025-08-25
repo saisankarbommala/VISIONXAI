@@ -269,7 +269,7 @@ const App: React.FC = () => {
               transition={{ duration: 1, delay: 2 }}
               className="text-lg md:text-xl text-gray-300 font-light tracking-widest max-w-4xl mx-auto leading-relaxed"
             >
-              Innovation • Culture • Future
+              Intelligence • Innovation • Impact
             </motion.p>
 
             <motion.p
