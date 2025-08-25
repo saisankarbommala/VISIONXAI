@@ -82,7 +82,7 @@ const Navbar = () => {
             aria-label="Go to Home"
           >
             <span className="relative inline-flex">
-              <Brain className="w-7 h-7 text-cyan-400" />
+              <Eye className="w-7 h-7 text-cyan-400" />
               <span className="absolute inset-0 bg-cyan-400 blur-lg opacity-30 animate-pulse" />
             </span>
             <span className="hidden md:block text-left">
