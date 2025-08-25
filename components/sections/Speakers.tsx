@@ -51,7 +51,7 @@ const speakers = [
     id: 10,
     name: 'T SAI RATNAM',
     title: 'HOD OF AI',
-    image: '/SAIRATNAM.jpg',
+    image: '/SAIRAM_SIR.jpg',
   },
 ];
 
