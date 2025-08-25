@@ -84,7 +84,7 @@ const About = () => {
             <div className="relative mx-auto w-72 h-72 flex items-center justify-center">
               {/* This motion.div creates the rotating glow ring */}
               <motion.div
-                className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-purple-500 rounded-full blur-2xl opacity-40 group-hover:opacity-70 transition-opacity"
+                
                 animate={{ rotate: 360 }}
                 transition={{ duration: 30, repeat: Infinity, ease: "linear" }}
               />
