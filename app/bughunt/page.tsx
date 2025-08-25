@@ -148,6 +148,10 @@ const HomePage = () => {
                   <span className="text-yellow-400 mt-1">★</span>
                   <span>Each team must appoint a <strong>Team Leader</strong> who will be the primary point of contact for all communication</span>
                 </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-yellow-400 mt-1">★</span>
+                  <span>Languages Supported<strong> Python , C.</strong></span>
+                </li>
               </ul>
             </div>
 
