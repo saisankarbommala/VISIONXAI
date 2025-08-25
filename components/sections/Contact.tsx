@@ -38,7 +38,7 @@ const contactCards = [
   {
     id: 3,
     title: 'Visit Us',
-    value: 'Aditya Degree College (Coed) Gajuwaka',
+    value: 'Aditya Degree College Gajuwaka',
     subtitle: 'Andhra Pradesh, Visakhapatnam, India',
     icon: MapPin,
     color: 'green',
@@ -59,7 +59,7 @@ const contactCards = [
     borderColor: 'border-orange-400/30',
     glowColor: 'shadow-orange-400/30',
     type: 'website', // Add a type
-    href: 'https://visionxai.netlify.app/' // Add the website URL
+    href: 'https://www.visionIx.ai' // Add the website URL
   },
 ];
 
@@ -382,23 +382,7 @@ const Contact = () => {
                 participate in cutting-edge competitions, and shape the future of Artificial Intelligence.
               </p>
               
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <motion.button
-                  className="px-8 py-4 bg-gradient-to-r from-cyan-500/20 to-purple-500/20 text-cyan-400 border border-cyan-400/30 rounded-full font-semibold hover:from-cyan-500/30 hover:to-purple-500/30 transition-all duration-300 pulse-glow orbitron"
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                >
-                  REGISTER NOW
-                </motion.button>
-                
-                <motion.button
-                  className="px-8 py-4 bg-gradient-to-r from-purple-500/20 to-pink-500/20 text-purple-400 border border-purple-400/30 rounded-full font-semibold hover:from-purple-500/30 hover:to-pink-500/30 transition-all duration-300 orbitron"
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                >
-                  DOWNLOAD BROCHURE
-                </motion.button>
-              </div>
+              
               
               <motion.div
                 className="pt-8 border-t border-gray-600 mt-8"
