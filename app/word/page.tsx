@@ -160,7 +160,7 @@ const HomePage = () => {
               <ul className="space-y-2 text-gray-300">
                 <li className="flex items-start gap-2">
                   <span className="text-yellow-400 mt-1">★</span>
-                  <span>The <strong>Team Leader</strong> is solely responsible for registering the entire team.</span>
+                  <span>The <strong>Team Leader</strong> is responsible for registering the entire team.</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-yellow-400 mt-1">★</span>
