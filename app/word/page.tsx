@@ -257,7 +257,7 @@ const HomePage = () => {
                   <Phone className="w-8 h-8 text-cyan-400" />
                 </div>
                 <h3 className="font-bold text-gray-300">Call Us</h3>
-                <p className="text-cyan-300">+91 91432 31615</p>
+                <p className="text-cyan-300">+91 8143231615</p>
                 
                 <p className="text-gray-500 text-xs mt-2">Event Coordination & Support</p>
               </div>
