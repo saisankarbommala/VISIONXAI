@@ -57,7 +57,7 @@ const speakers = [
 
 const chiefGuest = {
   id: 1,
-  name: 'CHEIF GUEST',
+  name: 'CHIEF GUEST',
   title: 'Founder & CEO',
   company: 'VisionX Technologies',
   image: '/GUEST.png',
