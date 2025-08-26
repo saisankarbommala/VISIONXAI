@@ -142,7 +142,7 @@ const HomePage = () => {
               <ul className="space-y-2 text-gray-300">
                 <li className="flex items-start gap-2">
                   <span className="text-yellow-400 mt-1">★</span>
-                  <span>Teams must consist of maximum <strong>five (3)</strong>  members.</span>
+                  <span>Teams must consist of maximum <strong>five (5)</strong>  members.</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-yellow-400 mt-1">★</span>
