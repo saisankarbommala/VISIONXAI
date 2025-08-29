@@ -61,7 +61,7 @@ const chiefGuest = {
   title: 'Founder & CEO',
   company: 'VisionX Technologies',
   image: '/GUEST.png',
-  description: "A visionary leader in Artificial Intelligence, known for pioneering innovations at VisionX Technologies. His expertise and journey inspire the next generation of technologists."
+  description: "A Visionary Leader in Artificial Intelligence, known for pioneering innovations at VisionX Technologies. His expertise and journey inspire the next generation of technologists."
 };
 
 // Interactive Magnifier
