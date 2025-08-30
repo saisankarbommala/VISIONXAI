@@ -57,11 +57,11 @@ const speakers = [
 
 const chiefGuest = {
   id: 1,
-  name: 'CHIEF GUEST',
-  title: 'Founder & CEO',
-  company: 'VisionX Technologies',
-  image: '/GUEST.png',
-  description: "A Visionary Leader in Artificial Intelligence, known for pioneering innovations at VisionX Technologies. His expertise and journey inspire the next generation of technologists."
+  name: 'RAJASEKHAR ALLADA',
+  title: 'President',
+  company: 'Techsimplified.com, Texas',
+  image: '/CHIEFGUEST.jpg',
+  description: "A visionary leader in the software industry with over 30 years of expertise , serving 25+ pension funds. Honored nationally for his early scientific research and globally recognized for his contributions, his mission is to transform education and empower over one million students.."
 };
 
 // Interactive Magnifier
